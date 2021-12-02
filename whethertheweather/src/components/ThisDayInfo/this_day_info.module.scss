@@ -1,0 +1,64 @@
+.this_day_info {
+  background: var(#{--components-background-default});
+  box-shadow: var(#{ --card-shadow-default});
+  border-radius: 20px;
+  max-width: 750px;
+  width: 100%;
+  padding: 38px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: url("../../assets/img/1bg.png") no-repeat;
+  background-position: top right;
+}
+
+.weather_details {
+  width: 70%;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.element:last-child {
+  margin-bottom: 0;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.icon_wrap {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: var(#{ --card-shadow-default});
+  margin-right: 20px;
+}
+
+.icon {
+  display: block;
+}
+
+.detail_name {
+  font-size: 14px;
+  line-height: 17px;
+  color: #939CB0;
+}
+
+.detail_desc {
+  font-size: 14px;
+  line-height: 17px;
+  color: var(#{--text-color-default});
+  text-align: left;
+}

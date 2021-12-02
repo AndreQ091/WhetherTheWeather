@@ -1,0 +1,57 @@
+@import "../../styles/variables";
+
+.this_day {
+  max-width: 400px;
+  width: 100%;
+  background: var(#{--components-background-default});
+  box-shadow: var(#{ --card-shadow-default});
+  border-radius: 20px;
+  padding: 20px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.bottom {
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.weather_logo {
+  display: block;
+  width: 119px;
+  height: 119px;
+}
+
+.current_temp {
+  font-weight: 500;
+  font-size: 96px;
+  color: #4793FF;
+}
+
+.today_title {
+  font-size: 40px;
+  color: var(#{--text-color-default});
+}
+
+.bottom p {
+  font-size: 25px;
+  line-height: 30px;
+  color: #939CB0;
+}
+
+.bottom p:first-child {
+  margin-bottom: 14px;
+}
